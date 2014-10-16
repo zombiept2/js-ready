@@ -1,16 +1,16 @@
-js-ready
-========
-
-JavaScript only version of jQuery's document.ready method
-
-Example
--------
-
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>js-ready demo</title>
 	<script type="text/javascript" src="../dist/js-ready.js"></script>
 	<script type="text/javascript">
 	ready(function(){
 		document.getElementById('updated-on-ready').innerHTML = 'This was added after the DOM was loaded.';
 	});
 	</script>
-
-
+</head>
+<body>
+	<div id="updated-on-ready"></div>
+</body>
+</html>
